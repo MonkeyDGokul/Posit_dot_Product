@@ -1,0 +1,28 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "../../../../../Path from github/sources" \
+"../../../../../Path from github/sources/barrel_shifter.sv" \
+"../../../../../Path from github/sources/booth_encoder.sv" \
+"../../../../../Path from github/sources/cf_math_pkg.sv" \
+"../../../../../Path from github/sources/comp_tree.sv" \
+"../../../../../Path from github/sources/comparator.sv" \
+"../../../../../Path from github/sources/pdpu_pkg.sv" \
+"../../../../../Path from github/sources/compressor_3to2.sv" \
+"../../../../../Path from github/sources/compressor_4to2.sv" \
+"../../../../../Path from github/sources/counter_5to3.sv" \
+"../../../../../Path from github/sources/csa_tree.sv" \
+"../../../../../Path from github/sources/fulladder.sv" \
+"../../../../../Path from github/sources/gen_prods.sv" \
+"../../../../../Path from github/sources/gen_product.sv" \
+"../../../../../Path from github/sources/lzc.sv" \
+"../../../../../Path from github/sources/mantissa_norm.sv" \
+"../../../../../Path from github/sources/pdpu_top_pipelined.sv" \
+"../../../../../Path from github/sources/posit_decoder.sv" \
+"../../../../../Path from github/sources/posit_encoder.sv" \
+"../../../../../Path from github/sources/radix4_booth_multiplier.sv" \
+"../../../../PDPU_Final.srcs/sim_1/new/tb_pdpu_top_pipelined.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

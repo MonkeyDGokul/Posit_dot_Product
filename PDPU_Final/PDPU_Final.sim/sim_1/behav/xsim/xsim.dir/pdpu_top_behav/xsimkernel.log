@@ -1,0 +1,7 @@
+Running: xsim.dir/pdpu_top_behav/xsimk.exe -simmode gui -wdb pdpu_top_behav.wdb -simrunnum 0 -socket 51000
+Design successfully loaded
+Design Loading Memory Usage: 8612 KB (Peak: 8612 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 9544 KB (Peak: 9544 KB)
+Simulation CPU Usage: 15 ms
